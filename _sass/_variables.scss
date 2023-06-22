@@ -14,11 +14,11 @@ $gray: #FFFFFF;
 $lightGray: #2b2b2b;
 $white: #1e1e1e;
 
-// Font stacks
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap')
-$helvetica: Inter, sans-serif;
-$helveticaNeue: Inter, sans-serif;
-$georgia: Inter, sans-serif;
+// Google Fonts
+@import 'https://fonts.googleapis.com/css2?family=Inter&display=swap'
+
+// Font Variables
+$inter: 'Inter', sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
